@@ -1,0 +1,91 @@
+* { cursor: pointer;
+
+ } 
+body { 
+    background-color: rgba(0, 0, 0, 0.572);
+}
+h1 span {
+    color: #ff000f
+    background-color#ff000f;
+}
+#neg {
+    color: yellow;
+    font-size: 20px;
+    background:url(https://m.media-amazon.com/images/I/71tNdtNw70L._UF1000,1000_QL80_.jpg);
+    background-size: contain;
+    
+}
+#hoyr {
+    font-size: 20px;
+    background:url(https://upload.wikimedia.org/wikipedia/en/3/37/YMO_YelloyMagicOrchestra.jpg);
+    background-size: contain;
+}
+#gurav {
+    font-size: 20px;
+    background:url(https://e.snmc.io/i/1200/s/a94a455460034be2e5c8f63b5c02396e/9301578);
+    background-size: cover;    
+}
+h1 span {
+    color: yellowgreen;
+    font-size: 20px;
+}
+h3 span {
+    color: blue;
+    font-size: 20px;
+}
+h4 span {
+    color: yellowgreen;
+    font-size: 20px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 3px solid black;
+    margin: 50px 25px 50px 25px;
+    padding: 2px 2px 2px 2px
+}
+h3 span {
+    color: fuchsia;
+    font-size: 20px;
+}
+.boxbox {
+    background-color: yellow;
+    width: 280px;
+    height: 280px;
+    border: 2px solid black;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+
+}
+h6 span {
+    font: 15px solid ;
+    color: black;
+    /* Comment Section */
+}
+.YMOBOX {
+    background-color: grey;
+    width: 280px;
+    height: 80px;
+    font-size: 15px;
+    border: 3px solid rgb(114, 132, 250);
+}
+.copyright {
+    text-align: auto;
+    font-size: 12px;
+    margin: 0 auto;  
+}
+.about {color: rgb(0, 0, 0);
+    font-size: 15;
+    font-style: oblique;
+    width: 600px;
+    height: 120px;
+    border:none
+}
+.clickselection {
+    padding-bottom: 20px;
+    font: 20px
+    ;
+}

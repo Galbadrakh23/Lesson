@@ -1,0 +1,54 @@
+body {
+    height: 200vh;
+    background-color: rgba(50, 205, 50, 0.92);
+    margin: 0%;
+}
+.box {
+    width: 250px;
+    height: 250px; ;
+    position: static;
+}
+.box1 {
+  background-color: yellowgreen;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.box2 {
+    background-color: rgb(4, 170, 253);
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+.box3 {
+    position:fixed;
+    background: url(/images/icon.svg);
+    background-size: cover;
+    right: 1%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    height: 70px;
+    width: 70px;
+}
+.box4 {
+    background-color: yellow;
+    border: 2px dotted red;
+    
+}
+.container {
+    position: relative;
+    border: 5px solid;
+    margin-left: 100px;
+    width: 505px;
+    height: 505px;
+}
+.box5 {
+    background-color: rgb(37, 10, 238);
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    border: 2px dotted red;
+}

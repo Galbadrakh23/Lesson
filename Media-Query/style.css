@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+.box {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+@media (max-width: 100vw) {
+  .box {
+    background-color: green;
+  }
+}
+
+@media (max-width: 1200px) {
+  .box {
+    background-color: black;
+  }
+}
+@media (max-width: 992px) {
+  .box {
+    background-color: red;
+  }
+}
+@media (max-width: 767px) {
+  .box {
+    background-color: blue;
+  }
+  .desktop,
+  .laptop,
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .box {
+    background-color: gold;
+  }
+  .desktop,
+  .laptop,
+  .tablet {
+    display: none;
+  }
+}

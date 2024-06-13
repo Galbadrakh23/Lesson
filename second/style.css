@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.HeadText {
+  padding-top: 5px;
+  flex: 1;
+}
+.HeadText a {
+  padding-left: 15px;
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.HeadText2 {
+  padding-right: 15px;
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 5px;
+  flex: 1;
+  text-align: right;
+}
+.NavMenu {
+  display: flex;
+  list-style-type: none;
+  color: aliceblue;
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+  padding-top: 5px;
+  justify-content: space-evenly;
+  flex: 4;
+}
+li a {
+  color: #000;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+section {
+  background-color: #555;
+  width: 100vw;
+  height: 100vw;
+}
+.Body1 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/9cb22d81-5272-4c9f-982b-d60174d2c254/Apple+Logos2+2.png?format=1500w);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.insidetext1 {
+  color: #000;
+  font-family: Helvetica;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 35px;
+}
+.Body2 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/e5caf9fd-4259-4ab0-aaec-446ea5c4558e/iPAdAir.png?format=1500w);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-image: fill 0 linear-gradient (#0001, #000);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.Body3 {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/ad98f733-71d5-4b08-b89f-a7ae3df830a8/GoodMorning.png?format=1500w);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-image: fill 0 linear-gradient (#0001, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Body4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-image: url(/White\ Dunes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Body4 h1 {
+  font-family: Helvetica;
+  color: azure;
+  font-size: 30px;
+}
+
+.Body4 p {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: azure;
+  font-size: 20px;
+  border: 2px solid red;
+}
+.Subscribe {
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  font-size: 18px;
+  border-radius: 8px;
+  color: azure;
+}
+.insidetext2 {
+  color: white;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+.insidetext2-2 {
+  font-size: 23px;
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: lighter;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.insidetext3 {
+  color: whitesmoke;
+  font-family: Helvetica;
+  font-size: 30px;
+  margin-left: 250px;
+}
+.insidetex4 {
+  color: #000;
+  font-family: Helvetica;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 35px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    font size: 20px;
+}

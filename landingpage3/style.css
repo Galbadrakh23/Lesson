@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: ;
+}
+body {
+  background: white;
+  box-shadow: -24px -28px 140px 0px #0000001a;
+}
+header {
+  width: 100vw;
+  height: 84px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid blue;
+}
+.headers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 84px;
+}
+.logo {
+  border: 1px solid blue;
+}
+.navi {
+  display: flex;
+  gap: 50px;
+}

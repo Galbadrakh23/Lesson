@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+}
+body {
+    background-color: aquamarine;
+}
+.box{
+    background-color: khaki;
+    width: 50vw;
+    height: 50vh;
+}
+.box_1_1 {
+    background-color: rgb(240, 142, 140);
+    width: 50vw;
+    height: 50vw;
+}
+.box_1_1_1 {
+    background-color: blue;
+    width: 25vw;
+    height: 50vw;
+}
+.box_2 {
+    background-color: greenyellow;
+    width: 50%;
+    height: 100%;
+}
+.box_3 {
+    background-color: tomato;
+    width: 66%;
+    height: 100%;
+}
+.box_4 {
+    background-color: springgreen;
+    width: 50%;
+    height: 100%;
+    background-image: conic-gradient(red, yellow, green);
+}
